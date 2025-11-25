@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_51715866be4494d511112278593329c0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_51715866be4494d511112278593329c0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_51715866be4494d511112278593329c0 = L.map(
+                "map_51715866be4494d511112278593329c0",
+                {
+                    center: [35.58336275020409, 140.20406771836733],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_81ea9b551bc6c8cc884988750e368e79 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_81ea9b551bc6c8cc884988750e368e79.addTo(map_51715866be4494d511112278593329c0);
+        
+    
+            var circle_marker_c0200be19369b67f24f68a1adff322cc = L.circleMarker(
+                [35.25390602, 140.3850904],
+                {"bubblingMouseEvents": true, "color": "#026c39", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#026c39", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_a39b913effe01885a00b9d5575d13458 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_168f56aeea29707acf9d8a86d13413ec = $(`<div id="html_168f56aeea29707acf9d8a86d13413ec" style="width: 100.0%; height: 100.0%;">いすみ市<br>件数: 15</div>`)[0];
+                popup_a39b913effe01885a00b9d5575d13458.setContent(html_168f56aeea29707acf9d8a86d13413ec);
+            
+        
+
+        circle_marker_c0200be19369b67f24f68a1adff322cc.bindPopup(popup_a39b913effe01885a00b9d5575d13458)
+        ;
+
+        
+    
+    
+            var circle_marker_7cefb4ca272b394d882913a765be5ac9 = L.circleMarker(
+                [35.37280368, 140.3687536],
+                {"bubblingMouseEvents": true, "color": "#04703b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#04703b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_8ec2d26653d8031a8d6474ce7dfcdedd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a055aa9563f9cbef9dad1c504eb2ed69 = $(`<div id="html_a055aa9563f9cbef9dad1c504eb2ed69" style="width: 100.0%; height: 100.0%;">一宮町<br>件数: 21</div>`)[0];
+                popup_8ec2d26653d8031a8d6474ce7dfcdedd.setContent(html_a055aa9563f9cbef9dad1c504eb2ed69);
+            
+        
+
+        circle_marker_7cefb4ca272b394d882913a765be5ac9.bindPopup(popup_8ec2d26653d8031a8d6474ce7dfcdedd)
+        ;
+
+        
+    
+    
+            var circle_marker_0da13f89e6dc4b1f799d18958532f724 = L.circleMarker(
+                [35.53474504, 140.4412389],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_f99bbd62b37b8f1276ef50e095428820 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f66ea31d2c349c110062d07c371370e4 = $(`<div id="html_f66ea31d2c349c110062d07c371370e4" style="width: 100.0%; height: 100.0%;">九十九里町<br>件数: 3</div>`)[0];
+                popup_f99bbd62b37b8f1276ef50e095428820.setContent(html_f66ea31d2c349c110062d07c371370e4);
+            
+        
+
+        circle_marker_0da13f89e6dc4b1f799d18958532f724.bindPopup(popup_f99bbd62b37b8f1276ef50e095428820)
+        ;
+
+        
+    
+    
+            var circle_marker_9589f0a3ef2f18b85d5a0831eb4014ec = L.circleMarker(
+                [35.72350137, 140.2239553],
+                {"bubblingMouseEvents": true, "color": "#249d53", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#249d53", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.600000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_8cccda2b61ab8cdf2ae7d1aa8001b554 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_078028bc4229075ea7f9c6e172caa523 = $(`<div id="html_078028bc4229075ea7f9c6e172caa523" style="width: 100.0%; height: 100.0%;">佐倉市<br>件数: 146</div>`)[0];
+                popup_8cccda2b61ab8cdf2ae7d1aa8001b554.setContent(html_078028bc4229075ea7f9c6e172caa523);
+            
+        
+
+        circle_marker_9589f0a3ef2f18b85d5a0831eb4014ec.bindPopup(popup_8cccda2b61ab8cdf2ae7d1aa8001b554)
+        ;
+
+        
+    
+    
+            var circle_marker_3b68c972b7653acd95a283546c9d869f = L.circleMarker(
+                [35.72246142, 140.0998442],
+                {"bubblingMouseEvents": true, "color": "#c5e67e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5e67e", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45.800000000000004, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_b86ba2f1901446f20ef3d7efff41e2c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5495d9a67784ac395a0569b40983552 = $(`<div id="html_c5495d9a67784ac395a0569b40983552" style="width: 100.0%; height: 100.0%;">八千代市<br>件数: 458</div>`)[0];
+                popup_b86ba2f1901446f20ef3d7efff41e2c8.setContent(html_c5495d9a67784ac395a0569b40983552);
+            
+        
+
+        circle_marker_3b68c972b7653acd95a283546c9d869f.bindPopup(popup_b86ba2f1901446f20ef3d7efff41e2c8)
+        ;
+
+        
+    
+    
+            var circle_marker_52cc41226b9a344441607170c4d30c0c = L.circleMarker(
+                [35.66587749, 140.3179921],
+                {"bubblingMouseEvents": true, "color": "#17934e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#17934e", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_6dfb47def9d64863ac84944805164835 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91a8f16cbc08ae623991dae71d205d8e = $(`<div id="html_91a8f16cbc08ae623991dae71d205d8e" style="width: 100.0%; height: 100.0%;">八街市<br>件数: 115</div>`)[0];
+                popup_6dfb47def9d64863ac84944805164835.setContent(html_91a8f16cbc08ae623991dae71d205d8e);
+            
+        
+
+        circle_marker_52cc41226b9a344441607170c4d30c0c.bindPopup(popup_6dfb47def9d64863ac84944805164835)
+        ;
+
+        
+    
+    
+            var circle_marker_51e0d7c5577eb2708ad7fee49c581a17 = L.circleMarker(
+                [35.15222872, 140.3209104],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_0ab1085265f17fe5087b3533f3f023be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_171eede7e20a8c2592a64150b99c9cf9 = $(`<div id="html_171eede7e20a8c2592a64150b99c9cf9" style="width: 100.0%; height: 100.0%;">勝浦市<br>件数: 1</div>`)[0];
+                popup_0ab1085265f17fe5087b3533f3f023be.setContent(html_171eede7e20a8c2592a64150b99c9cf9);
+            
+        
+
+        circle_marker_51e0d7c5577eb2708ad7fee49c581a17.bindPopup(popup_0ab1085265f17fe5087b3533f3f023be)
+        ;
+
+        
+    
+    
+            var circle_marker_8ee8689212aad664a5928b1284c49163 = L.circleMarker(
+                [35.70784482, 140.565323],
+                {"bubblingMouseEvents": true, "color": "#016a38", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#016a38", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_87b0b3b1cd1342aae54d4e86bfdd229f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_266698d871fad676a7fd137a1fe10c04 = $(`<div id="html_266698d871fad676a7fd137a1fe10c04" style="width: 100.0%; height: 100.0%;">匝瑳市<br>件数: 9</div>`)[0];
+                popup_87b0b3b1cd1342aae54d4e86bfdd229f.setContent(html_266698d871fad676a7fd137a1fe10c04);
+            
+        
+
+        circle_marker_8ee8689212aad664a5928b1284c49163.bindPopup(popup_87b0b3b1cd1342aae54d4e86bfdd229f)
+        ;
+
+        
+    
+    
+            var circle_marker_c97abcbdb0df428609c40fb0e0a0b8c8 = L.circleMarker(
+                [35.04321319, 139.8401336],
+                {"bubblingMouseEvents": true, "color": "#016a38", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#016a38", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_916d12092efeae071337a33f883b9840 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19da44c0adbb6225d4672de525a4007e = $(`<div id="html_19da44c0adbb6225d4672de525a4007e" style="width: 100.0%; height: 100.0%;">南房総市<br>件数: 8</div>`)[0];
+                popup_916d12092efeae071337a33f883b9840.setContent(html_19da44c0adbb6225d4672de525a4007e);
+            
+        
+
+        circle_marker_c97abcbdb0df428609c40fb0e0a0b8c8.bindPopup(popup_916d12092efeae071337a33f883b9840)
+        ;
+
+        
+    
+    
+            var circle_marker_0cef88ccad6d2b4afd88497d5b46a93b = L.circleMarker(
+                [35.83235853, 140.1457724],
+                {"bubblingMouseEvents": true, "color": "#199750", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#199750", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_01949ca85dac320e4a0ee73dac1b31ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55566d53307855e2740bcc52154f25d0 = $(`<div id="html_55566d53307855e2740bcc52154f25d0" style="width: 100.0%; height: 100.0%;">印西市<br>件数: 125</div>`)[0];
+                popup_01949ca85dac320e4a0ee73dac1b31ac.setContent(html_55566d53307855e2740bcc52154f25d0);
+            
+        
+
+        circle_marker_0cef88ccad6d2b4afd88497d5b46a93b.bindPopup(popup_01949ca85dac320e4a0ee73dac1b31ac)
+        ;
+
+        
+    
+    
+            var circle_marker_a3ac779dd02001344b8640eecbf4a3f2 = L.circleMarker(
+                [35.33035389, 139.9027228],
+                {"bubblingMouseEvents": true, "color": "#108647", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#108647", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_82e096dcb120564c386cb2955039893e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26588de3a5cd71414e0398a8c592cc96 = $(`<div id="html_26588de3a5cd71414e0398a8c592cc96" style="width: 100.0%; height: 100.0%;">君津市<br>件数: 84</div>`)[0];
+                popup_82e096dcb120564c386cb2955039893e.setContent(html_26588de3a5cd71414e0398a8c592cc96);
+            
+        
+
+        circle_marker_a3ac779dd02001344b8640eecbf4a3f2.bindPopup(popup_82e096dcb120564c386cb2955039893e)
+        ;
+
+        
+    
+    
+            var circle_marker_3c93a63d32b10472d7ff32c6120d409f = L.circleMarker(
+                [35.66735254, 140.1710973],
+                {"bubblingMouseEvents": true, "color": "#30a356", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30a356", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_60da8813300a5aaf5a34364781c7d326 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_338c9fe9175075fe20f71c5c118cfc9e = $(`<div id="html_338c9fe9175075fe20f71c5c118cfc9e" style="width: 100.0%; height: 100.0%;">四街道市<br>件数: 165</div>`)[0];
+                popup_60da8813300a5aaf5a34364781c7d326.setContent(html_338c9fe9175075fe20f71c5c118cfc9e);
+            
+        
+
+        circle_marker_3c93a63d32b10472d7ff32c6120d409f.bindPopup(popup_60da8813300a5aaf5a34364781c7d326)
+        ;
+
+        
+    
+    
+            var circle_marker_17eb39db709c10bbc09d3792750bd10d = L.circleMarker(
+                [35.73555209, 140.4677636],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_d8ffc575386d195c42f50030559c8137 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbe7546c79f91b2dbda6e42a9a9f197f = $(`<div id="html_fbe7546c79f91b2dbda6e42a9a9f197f" style="width: 100.0%; height: 100.0%;">多古町<br>件数: 4</div>`)[0];
+                popup_d8ffc575386d195c42f50030559c8137.setContent(html_fbe7546c79f91b2dbda6e42a9a9f197f);
+            
+        
+
+        circle_marker_17eb39db709c10bbc09d3792750bd10d.bindPopup(popup_d8ffc575386d195c42f50030559c8137)
+        ;
+
+        
+    
+    
+            var circle_marker_5e35436d9ac5f1a5e40cf79c98eb34b7 = L.circleMarker(
+                [35.52173204, 140.3209636],
+                {"bubblingMouseEvents": true, "color": "#05713c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#05713c", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_e615e02fec51179341384b6183f66a12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4dab1915f86856e8ad92a63aa6513da = $(`<div id="html_f4dab1915f86856e8ad92a63aa6513da" style="width: 100.0%; height: 100.0%;">大網白里市<br>件数: 26</div>`)[0];
+                popup_e615e02fec51179341384b6183f66a12.setContent(html_f4dab1915f86856e8ad92a63aa6513da);
+            
+        
+
+        circle_marker_5e35436d9ac5f1a5e40cf79c98eb34b7.bindPopup(popup_e615e02fec51179341384b6183f66a12)
+        ;
+
+        
+    
+    
+            var circle_marker_08426aa33b6ae0fd1b84e62c9fe88520 = L.circleMarker(
+                [35.30409406, 139.8570893],
+                {"bubblingMouseEvents": true, "color": "#08773f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08773f", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_6f5ace63bb3a7dab57a5b736f65c65eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b1270c6346b899d8740928241ba8210 = $(`<div id="html_1b1270c6346b899d8740928241ba8210" style="width: 100.0%; height: 100.0%;">富津市<br>件数: 45</div>`)[0];
+                popup_6f5ace63bb3a7dab57a5b736f65c65eb.setContent(html_1b1270c6346b899d8740928241ba8210);
+            
+        
+
+        circle_marker_08426aa33b6ae0fd1b84e62c9fe88520.bindPopup(popup_6f5ace63bb3a7dab57a5b736f65c65eb)
+        ;
+
+        
+    
+    
+            var circle_marker_6ec9f140eb7d1a64dac5b7c93a5091b7 = L.circleMarker(
+                [35.72678282, 140.3430971],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_c46048d81f6594abdd79bc53eea08927 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c751c97d5fe1277098110119acd3bdf = $(`<div id="html_3c751c97d5fe1277098110119acd3bdf" style="width: 100.0%; height: 100.0%;">富里市<br>件数: 31</div>`)[0];
+                popup_c46048d81f6594abdd79bc53eea08927.setContent(html_3c751c97d5fe1277098110119acd3bdf);
+            
+        
+
+        circle_marker_6ec9f140eb7d1a64dac5b7c93a5091b7.bindPopup(popup_c46048d81f6594abdd79bc53eea08927)
+        ;
+
+        
+    
+    
+            var circle_marker_0a740ff2e07a611a2931ef18fd980e56 = L.circleMarker(
+                [35.60299549, 140.4135864],
+                {"bubblingMouseEvents": true, "color": "#04703b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#04703b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_9034026816faeac71e93b0fbb806df1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd6c600b0575c7e1656368dff0fb967e = $(`<div id="html_bd6c600b0575c7e1656368dff0fb967e" style="width: 100.0%; height: 100.0%;">山武市<br>件数: 24</div>`)[0];
+                popup_9034026816faeac71e93b0fbb806df1c.setContent(html_bd6c600b0575c7e1656368dff0fb967e);
+            
+        
+
+        circle_marker_0a740ff2e07a611a2931ef18fd980e56.bindPopup(popup_9034026816faeac71e93b0fbb806df1c)
+        ;
+
+        
+    
+    
+            var circle_marker_9b20e1380529734c3ff803651aaf6599 = L.circleMarker(
+                [35.49796727, 140.1154691],
+                {"bubblingMouseEvents": true, "color": "#75c465", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#75c465", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28.5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_f975324ddf71780fdce9f040acded052 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fc54b860fe17317b90327867f136f47 = $(`<div id="html_2fc54b860fe17317b90327867f136f47" style="width: 100.0%; height: 100.0%;">市原市<br>件数: 285</div>`)[0];
+                popup_f975324ddf71780fdce9f040acded052.setContent(html_2fc54b860fe17317b90327867f136f47);
+            
+        
+
+        circle_marker_9b20e1380529734c3ff803651aaf6599.bindPopup(popup_f975324ddf71780fdce9f040acded052)
+        ;
+
+        
+    
+    
+            var circle_marker_64940a7aee570bd83360ad46b8616e38 = L.circleMarker(
+                [35.71606651, 139.9295173],
+                {"bubblingMouseEvents": true, "color": "#fdb365", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdb365", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 87.2, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_64855d361b424b216fbe3189d383c4d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c525171d457e6045a49a4844751d5842 = $(`<div id="html_c525171d457e6045a49a4844751d5842" style="width: 100.0%; height: 100.0%;">市川市<br>件数: 872</div>`)[0];
+                popup_64855d361b424b216fbe3189d383c4d1.setContent(html_c525171d457e6045a49a4844751d5842);
+            
+        
+
+        circle_marker_64940a7aee570bd83360ad46b8616e38.bindPopup(popup_64855d361b424b216fbe3189d383c4d1)
+        ;
+
+        
+    
+    
+            var circle_marker_2ed6847d57ba3ec024a4908c2a1c7ed4 = L.circleMarker(
+                [35.19145107, 140.3488006],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_4be41732ba1d683ea4a8f3cb3455eada = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4cd077ef607b3e8f522ac3d0fdcbe55 = $(`<div id="html_b4cd077ef607b3e8f522ac3d0fdcbe55" style="width: 100.0%; height: 100.0%;">御宿町<br>件数: 1</div>`)[0];
+                popup_4be41732ba1d683ea4a8f3cb3455eada.setContent(html_b4cd077ef607b3e8f522ac3d0fdcbe55);
+            
+        
+
+        circle_marker_2ed6847d57ba3ec024a4908c2a1c7ed4.bindPopup(popup_4be41732ba1d683ea4a8f3cb3455eada)
+        ;
+
+        
+    
+    
+            var circle_marker_2a5182dbe51cf2edfa433a960e29394c = L.circleMarker(
+                [35.77675278, 140.3190163],
+                {"bubblingMouseEvents": true, "color": "#4bb05c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4bb05c", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.1, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_b577a725a7aed2ecbc244c97ba667e81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d4691b09885aa387f4571292f0ca0ab = $(`<div id="html_9d4691b09885aa387f4571292f0ca0ab" style="width: 100.0%; height: 100.0%;">成田市<br>件数: 211</div>`)[0];
+                popup_b577a725a7aed2ecbc244c97ba667e81.setContent(html_9d4691b09885aa387f4571292f0ca0ab);
+            
+        
+
+        circle_marker_2a5182dbe51cf2edfa433a960e29394c.bindPopup(popup_b577a725a7aed2ecbc244c97ba667e81)
+        ;
+
+        
+    
+    
+            var circle_marker_1ab5e54711ae40d8bab88a44784c3a8a = L.circleMarker(
+                [35.86408422, 140.0281925],
+                {"bubblingMouseEvents": true, "color": "#16914d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16914d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.4, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_88304dc20ed4779abbf15163fda2aeeb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb0d6f1f9acfcfe1eaa9d4a10385d818 = $(`<div id="html_cb0d6f1f9acfcfe1eaa9d4a10385d818" style="width: 100.0%; height: 100.0%;">我孫子市<br>件数: 114</div>`)[0];
+                popup_88304dc20ed4779abbf15163fda2aeeb.setContent(html_cb0d6f1f9acfcfe1eaa9d4a10385d818);
+            
+        
+
+        circle_marker_1ab5e54711ae40d8bab88a44784c3a8a.bindPopup(popup_88304dc20ed4779abbf15163fda2aeeb)
+        ;
+
+        
+    
+    
+            var circle_marker_79244439465b2ecf7fba53ece9262200 = L.circleMarker(
+                [35.72039158, 140.6465969],
+                {"bubblingMouseEvents": true, "color": "#0c7f43", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0c7f43", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.4, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_2cad62c522bdb775e901b249b8e6b3a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91d7621c8650a46dc3ea82e5e398ef0b = $(`<div id="html_91d7621c8650a46dc3ea82e5e398ef0b" style="width: 100.0%; height: 100.0%;">旭市<br>件数: 64</div>`)[0];
+                popup_2cad62c522bdb775e901b249b8e6b3a4.setContent(html_91d7621c8650a46dc3ea82e5e398ef0b);
+            
+        
+
+        circle_marker_79244439465b2ecf7fba53ece9262200.bindPopup(popup_2cad62c522bdb775e901b249b8e6b3a4)
+        ;
+
+        
+    
+    
+            var circle_marker_c4376c5dd6b6d67557ed854a49863454 = L.circleMarker(
+                [35.38099417, 139.9248569],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.700000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_9e787d6291194dc3a2ea5b3e8cb1f734 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acd4739897d2637937863ad46a6825fc = $(`<div id="html_acd4739897d2637937863ad46a6825fc" style="width: 100.0%; height: 100.0%;">木更津市<br>件数: 157</div>`)[0];
+                popup_9e787d6291194dc3a2ea5b3e8cb1f734.setContent(html_acd4739897d2637937863ad46a6825fc);
+            
+        
+
+        circle_marker_c4376c5dd6b6d67557ed854a49863454.bindPopup(popup_9e787d6291194dc3a2ea5b3e8cb1f734)
+        ;
+
+        
+    
+    
+            var circle_marker_c6f4e95c7e70989a872523fa7b7b1623 = L.circleMarker(
+                [35.83720891, 140.6684429],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_e4e407d3691dc453a1c6cba4e28f5554 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a1946384efeb8e2e3b811945fbe8a31 = $(`<div id="html_7a1946384efeb8e2e3b811945fbe8a31" style="width: 100.0%; height: 100.0%;">東庄町<br>件数: 3</div>`)[0];
+                popup_e4e407d3691dc453a1c6cba4e28f5554.setContent(html_7a1946384efeb8e2e3b811945fbe8a31);
+            
+        
+
+        circle_marker_c6f4e95c7e70989a872523fa7b7b1623.bindPopup(popup_e4e407d3691dc453a1c6cba4e28f5554)
+        ;
+
+        
+    
+    
+            var circle_marker_7c7afdb3fea296b4e827ee4ef25fd01a = L.circleMarker(
+                [35.55988179, 140.3661864],
+                {"bubblingMouseEvents": true, "color": "#148e4b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#148e4b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.3, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_f3fa790e373730089c05338cf7fe001c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edc179e959a9097e9d3979bc626464b8 = $(`<div id="html_edc179e959a9097e9d3979bc626464b8" style="width: 100.0%; height: 100.0%;">東金市<br>件数: 103</div>`)[0];
+                popup_f3fa790e373730089c05338cf7fe001c.setContent(html_edc179e959a9097e9d3979bc626464b8);
+            
+        
+
+        circle_marker_7c7afdb3fea296b4e827ee4ef25fd01a.bindPopup(popup_f3fa790e373730089c05338cf7fe001c)
+        ;
+
+        
+    
+    
+            var circle_marker_b19f8d7a85481197b7bf09189a6ec012 = L.circleMarker(
+                [35.78766293, 139.9031535],
+                {"bubblingMouseEvents": true, "color": "#fff3ac", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff3ac", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 67.8, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_2a57d12e3916e977211fd66668eecb93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fc92d3b0618671fdec76c6f1ae3fa18 = $(`<div id="html_2fc92d3b0618671fdec76c6f1ae3fa18" style="width: 100.0%; height: 100.0%;">松戸市<br>件数: 678</div>`)[0];
+                popup_2a57d12e3916e977211fd66668eecb93.setContent(html_2fc92d3b0618671fdec76c6f1ae3fa18);
+            
+        
+
+        circle_marker_b19f8d7a85481197b7bf09189a6ec012.bindPopup(popup_2a57d12e3916e977211fd66668eecb93)
+        ;
+
+        
+    
+    
+            var circle_marker_d97707cbc4af32b15176c8d265f15fa5 = L.circleMarker(
+                [35.86825967, 139.9762354],
+                {"bubblingMouseEvents": true, "color": "#fff1a8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff1a8", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 69.10000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_7344750b38cdca20feb0fd62978b5348 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e18bde0150f40dba7a142db996aa78b0 = $(`<div id="html_e18bde0150f40dba7a142db996aa78b0" style="width: 100.0%; height: 100.0%;">柏市<br>件数: 691</div>`)[0];
+                popup_7344750b38cdca20feb0fd62978b5348.setContent(html_e18bde0150f40dba7a142db996aa78b0);
+            
+        
+
+        circle_marker_d97707cbc4af32b15176c8d265f15fa5.bindPopup(popup_7344750b38cdca20feb0fd62978b5348)
+        ;
+
+        
+    
+    
+            var circle_marker_c6fc0de3e3fe7512c9c049e616eace74 = L.circleMarker(
+                [35.84094248, 140.2437622],
+                {"bubblingMouseEvents": true, "color": "#026c39", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#026c39", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_e99e8a9b1c1dc3a6acd5c4229bb04cc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da72b1ddf4e58fed3f24e330b9212336 = $(`<div id="html_da72b1ddf4e58fed3f24e330b9212336" style="width: 100.0%; height: 100.0%;">栄町<br>件数: 14</div>`)[0];
+                popup_e99e8a9b1c1dc3a6acd5c4229bb04cc2.setContent(html_da72b1ddf4e58fed3f24e330b9212336);
+            
+        
+
+        circle_marker_c6fc0de3e3fe7512c9c049e616eace74.bindPopup(popup_e99e8a9b1c1dc3a6acd5c4229bb04cc2)
+        ;
+
+        
+    
+    
+            var circle_marker_af9c3dfa757463f1334b177e9438b15a = L.circleMarker(
+                [35.66555624, 140.5042984],
+                {"bubblingMouseEvents": true, "color": "#026c39", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#026c39", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_30fd5b27d1ab8c516b5094768242e2c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_646d26c77cd4f9d96620701fcade34d4 = $(`<div id="html_646d26c77cd4f9d96620701fcade34d4" style="width: 100.0%; height: 100.0%;">横芝光町<br>件数: 11</div>`)[0];
+                popup_30fd5b27d1ab8c516b5094768242e2c2.setContent(html_646d26c77cd4f9d96620701fcade34d4);
+            
+        
+
+        circle_marker_af9c3dfa757463f1334b177e9438b15a.bindPopup(popup_30fd5b27d1ab8c516b5094768242e2c2)
+        ;
+
+        
+    
+    
+            var circle_marker_104feded8a93e3b9b407ec54422f42ff = L.circleMarker(
+                [35.85634262, 139.9025005],
+                {"bubblingMouseEvents": true, "color": "#7fc866", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7fc866", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.200000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_e0675463f7479dda01ca1bda05bfea94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c35a1a4fe949f30e37747fd0edf33f5 = $(`<div id="html_2c35a1a4fe949f30e37747fd0edf33f5" style="width: 100.0%; height: 100.0%;">流山市<br>件数: 302</div>`)[0];
+                popup_e0675463f7479dda01ca1bda05bfea94.setContent(html_2c35a1a4fe949f30e37747fd0edf33f5);
+            
+        
+
+        circle_marker_104feded8a93e3b9b407ec54422f42ff.bindPopup(popup_e0675463f7479dda01ca1bda05bfea94)
+        ;
+
+        
+    
+    
+            var circle_marker_42c03e5ffab3a3ed0959c4b1b1f8a8e2 = L.circleMarker(
+                [35.65395325, 139.9022028],
+                {"bubblingMouseEvents": true, "color": "#bde379", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bde379", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 43.5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_13998068321d8700fb7ce8e96607c68c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32a9e18f100c28b82597bef2a86086c8 = $(`<div id="html_32a9e18f100c28b82597bef2a86086c8" style="width: 100.0%; height: 100.0%;">浦安市<br>件数: 435</div>`)[0];
+                popup_13998068321d8700fb7ce8e96607c68c.setContent(html_32a9e18f100c28b82597bef2a86086c8);
+            
+        
+
+        circle_marker_42c03e5ffab3a3ed0959c4b1b1f8a8e2.bindPopup(popup_13998068321d8700fb7ce8e96607c68c)
+        ;
+
+        
+    
+    
+            var circle_marker_eb62962ada5c88938650d175248bd74f = L.circleMarker(
+                [35.79118072, 140.0560711],
+                {"bubblingMouseEvents": true, "color": "#0c7f43", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0c7f43", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.300000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_c17d6deec1f98b0810ca152a765cb724 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e565ca8e7daef27a86e7acc9bbe07e79 = $(`<div id="html_e565ca8e7daef27a86e7acc9bbe07e79" style="width: 100.0%; height: 100.0%;">白井市<br>件数: 63</div>`)[0];
+                popup_c17d6deec1f98b0810ca152a765cb724.setContent(html_e565ca8e7daef27a86e7acc9bbe07e79);
+            
+        
+
+        circle_marker_eb62962ada5c88938650d175248bd74f.bindPopup(popup_c17d6deec1f98b0810ca152a765cb724)
+        ;
+
+        
+    
+    
+            var circle_marker_76988948cacc1048d8727e29af069ceb = L.circleMarker(
+                [35.45426025, 140.3742054],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_a1d1f1d5f5d14c715c74b0fc7028211d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9991038decf82564bb832d7ef54e48af = $(`<div id="html_9991038decf82564bb832d7ef54e48af" style="width: 100.0%; height: 100.0%;">白子町<br>件数: 1</div>`)[0];
+                popup_a1d1f1d5f5d14c715c74b0fc7028211d.setContent(html_9991038decf82564bb832d7ef54e48af);
+            
+        
+
+        circle_marker_76988948cacc1048d8727e29af069ceb.bindPopup(popup_a1d1f1d5f5d14c715c74b0fc7028211d)
+        ;
+
+        
+    
+    
+            var circle_marker_4586e913b3d2ab6df0e0264776d2b9f5 = L.circleMarker(
+                [35.3610114, 140.319409],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_19ebeb344ce367091d828bce665a82e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aebc708a827284c844cf0df1e7645673 = $(`<div id="html_aebc708a827284c844cf0df1e7645673" style="width: 100.0%; height: 100.0%;">睦沢町<br>件数: 1</div>`)[0];
+                popup_19ebeb344ce367091d828bce665a82e9.setContent(html_aebc708a827284c844cf0df1e7645673);
+            
+        
+
+        circle_marker_4586e913b3d2ab6df0e0264776d2b9f5.bindPopup(popup_19ebeb344ce367091d828bce665a82e9)
+        ;
+
+        
+    
+    
+            var circle_marker_fee7514d3d5813029cd69e430b97e988 = L.circleMarker(
+                [35.90149825, 140.4057063],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_3e159fc95ff5a5390ea90e6b3f16628d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb84c9422d659b8c3f5ea499087b304d = $(`<div id="html_fb84c9422d659b8c3f5ea499087b304d" style="width: 100.0%; height: 100.0%;">神崎町<br>件数: 2</div>`)[0];
+                popup_3e159fc95ff5a5390ea90e6b3f16628d.setContent(html_fb84c9422d659b8c3f5ea499087b304d);
+            
+        
+
+        circle_marker_fee7514d3d5813029cd69e430b97e988.bindPopup(popup_3e159fc95ff5a5390ea90e6b3f16628d)
+        ;
+
+        
+    
+    
+            var circle_marker_3d711d0dbf92ce3a7e98240b989d51f9 = L.circleMarker(
+                [35.68041858, 140.0265021],
+                {"bubblingMouseEvents": true, "color": "#c3e67d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3e67d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45.0, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_8432167d8c6f715983ac90e05ff2c03c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e970b8a652669472af869c429f05600 = $(`<div id="html_0e970b8a652669472af869c429f05600" style="width: 100.0%; height: 100.0%;">習志野市<br>件数: 450</div>`)[0];
+                popup_8432167d8c6f715983ac90e05ff2c03c.setContent(html_0e970b8a652669472af869c429f05600);
+            
+        
+
+        circle_marker_3d711d0dbf92ce3a7e98240b989d51f9.bindPopup(popup_8432167d8c6f715983ac90e05ff2c03c)
+        ;
+
+        
+    
+    
+            var circle_marker_459120295ba1fd873131b341fac506d4 = L.circleMarker(
+                [35.69467469, 139.982637],
+                {"bubblingMouseEvents": true, "color": "#a50026", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a50026", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 126.30000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_d36c4f3c020af0d3bd8e8ec6ee9788c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d7abdab91bf1904dc8d23a2f8f95bc9 = $(`<div id="html_9d7abdab91bf1904dc8d23a2f8f95bc9" style="width: 100.0%; height: 100.0%;">船橋市<br>件数: 1263</div>`)[0];
+                popup_d36c4f3c020af0d3bd8e8ec6ee9788c0.setContent(html_9d7abdab91bf1904dc8d23a2f8f95bc9);
+            
+        
+
+        circle_marker_459120295ba1fd873131b341fac506d4.bindPopup(popup_d36c4f3c020af0d3bd8e8ec6ee9788c0)
+        ;
+
+        
+    
+    
+            var circle_marker_d9571660d30872fdeb0c97eb1091dd06 = L.circleMarker(
+                [35.42837018, 140.288253],
+                {"bubblingMouseEvents": true, "color": "#128a49", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#128a49", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.4, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_23beddd05f980e4a5ee4b641db9eac5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d78a30c5b6709fe100d2427ec69d86f = $(`<div id="html_2d78a30c5b6709fe100d2427ec69d86f" style="width: 100.0%; height: 100.0%;">茂原市<br>件数: 94</div>`)[0];
+                popup_23beddd05f980e4a5ee4b641db9eac5a.setContent(html_2d78a30c5b6709fe100d2427ec69d86f);
+            
+        
+
+        circle_marker_d9571660d30872fdeb0c97eb1091dd06.bindPopup(popup_23beddd05f980e4a5ee4b641db9eac5a)
+        ;
+
+        
+    
+    
+            var circle_marker_8ad46f2e8e53ae22285193aa579bcd8e = L.circleMarker(
+                [35.42969664, 139.9545224],
+                {"bubblingMouseEvents": true, "color": "#08773f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08773f", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_bc5eb780827d1ccc5ba42d66c1bd27e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f544b2c7c70fcb4b1b02ade773e4551c = $(`<div id="html_f544b2c7c70fcb4b1b02ade773e4551c" style="width: 100.0%; height: 100.0%;">袖ケ浦市<br>件数: 42</div>`)[0];
+                popup_bc5eb780827d1ccc5ba42d66c1bd27e3.setContent(html_f544b2c7c70fcb4b1b02ade773e4551c);
+            
+        
+
+        circle_marker_8ad46f2e8e53ae22285193aa579bcd8e.bindPopup(popup_bc5eb780827d1ccc5ba42d66c1bd27e3)
+        ;
+
+        
+    
+    
+            var circle_marker_39754d18f1e97bd963d44ca3ab120966 = L.circleMarker(
+                [35.7246871, 140.2692363],
+                {"bubblingMouseEvents": true, "color": "#05713c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#05713c", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_7738b6c47bae5fe9a5acdb18b26e1d9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eafd8c7023944085f026b4f53ff72be7 = $(`<div id="html_eafd8c7023944085f026b4f53ff72be7" style="width: 100.0%; height: 100.0%;">酒々井町<br>件数: 30</div>`)[0];
+                popup_7738b6c47bae5fe9a5acdb18b26e1d9e.setContent(html_eafd8c7023944085f026b4f53ff72be7);
+            
+        
+
+        circle_marker_39754d18f1e97bd963d44ca3ab120966.bindPopup(popup_7738b6c47bae5fe9a5acdb18b26e1d9e)
+        ;
+
+        
+    
+    
+            var circle_marker_210afd5fdd959c6da294fe86ba09d912 = L.circleMarker(
+                [35.95501805, 139.8748579],
+                {"bubblingMouseEvents": true, "color": "#a0d669", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0d669", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36.7, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_3d723c84dec878a04a1b14f1d6a24273 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_607d72d24ec069352a5aba8449064114 = $(`<div id="html_607d72d24ec069352a5aba8449064114" style="width: 100.0%; height: 100.0%;">野田市<br>件数: 367</div>`)[0];
+                popup_3d723c84dec878a04a1b14f1d6a24273.setContent(html_607d72d24ec069352a5aba8449064114);
+            
+        
+
+        circle_marker_210afd5fdd959c6da294fe86ba09d912.bindPopup(popup_3d723c84dec878a04a1b14f1d6a24273)
+        ;
+
+        
+    
+    
+            var circle_marker_7feffceff498e4307faf6421fe5dc56c = L.circleMarker(
+                [35.73471346, 140.8265869],
+                {"bubblingMouseEvents": true, "color": "#05713c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#05713c", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_003e4cb835e9902d3348527dc599fab0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28b984e948f6b9e6aff82698aa568588 = $(`<div id="html_28b984e948f6b9e6aff82698aa568588" style="width: 100.0%; height: 100.0%;">銚子市<br>件数: 30</div>`)[0];
+                popup_003e4cb835e9902d3348527dc599fab0.setContent(html_28b984e948f6b9e6aff82698aa568588);
+            
+        
+
+        circle_marker_7feffceff498e4307faf6421fe5dc56c.bindPopup(popup_003e4cb835e9902d3348527dc599fab0)
+        ;
+
+        
+    
+    
+            var circle_marker_bdc06dad1e243722e3b68c317ccc060c = L.circleMarker(
+                [35.11113613, 139.8356936],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_50efb803c3ede4508bd6a3ef3d8a162e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bcda5db5ffd5dd085e7c17165c27b98 = $(`<div id="html_9bcda5db5ffd5dd085e7c17165c27b98" style="width: 100.0%; height: 100.0%;">鋸南町<br>件数: 5</div>`)[0];
+                popup_50efb803c3ede4508bd6a3ef3d8a162e.setContent(html_9bcda5db5ffd5dd085e7c17165c27b98);
+            
+        
+
+        circle_marker_bdc06dad1e243722e3b68c317ccc060c.bindPopup(popup_50efb803c3ede4508bd6a3ef3d8a162e)
+        ;
+
+        
+    
+    
+            var circle_marker_c802095834b41d3f01f0e74b99987cdf = L.circleMarker(
+                [35.77684077, 140.0007151],
+                {"bubblingMouseEvents": true, "color": "#219c52", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#219c52", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.0, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_3f3fb2e1275feedbfc172be4b71600ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_171a0b8b8aecb549970f39a13aa7d5f6 = $(`<div id="html_171a0b8b8aecb549970f39a13aa7d5f6" style="width: 100.0%; height: 100.0%;">鎌ケ谷市<br>件数: 140</div>`)[0];
+                popup_3f3fb2e1275feedbfc172be4b71600ad.setContent(html_171a0b8b8aecb549970f39a13aa7d5f6);
+            
+        
+
+        circle_marker_c802095834b41d3f01f0e74b99987cdf.bindPopup(popup_3f3fb2e1275feedbfc172be4b71600ad)
+        ;
+
+        
+    
+    
+            var circle_marker_fe3dd86dca3c2e574089be5d9bf287e0 = L.circleMarker(
+                [35.41218595, 140.3540105],
+                {"bubblingMouseEvents": true, "color": "#016a38", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#016a38", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_28289f2d7ae2b4e0aee1dd00fe5ca41a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1390c0929858c569a8d2de38fdeff21 = $(`<div id="html_f1390c0929858c569a8d2de38fdeff21" style="width: 100.0%; height: 100.0%;">長生村<br>件数: 9</div>`)[0];
+                popup_28289f2d7ae2b4e0aee1dd00fe5ca41a.setContent(html_f1390c0929858c569a8d2de38fdeff21);
+            
+        
+
+        circle_marker_fe3dd86dca3c2e574089be5d9bf287e0.bindPopup(popup_28289f2d7ae2b4e0aee1dd00fe5ca41a)
+        ;
+
+        
+    
+    
+            var circle_marker_61de0d0e089a98d3e81e0c623c0082db = L.circleMarker(
+                [34.9965832, 139.8700275],
+                {"bubblingMouseEvents": true, "color": "#0a7b41", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a7b41", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.2, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_29ed7cc1a53f58aef6deec36beeba2f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7038bacb78080bd17fa9538c779ed46 = $(`<div id="html_e7038bacb78080bd17fa9538c779ed46" style="width: 100.0%; height: 100.0%;">館山市<br>件数: 52</div>`)[0];
+                popup_29ed7cc1a53f58aef6deec36beeba2f3.setContent(html_e7038bacb78080bd17fa9538c779ed46);
+            
+        
+
+        circle_marker_61de0d0e089a98d3e81e0c623c0082db.bindPopup(popup_29ed7cc1a53f58aef6deec36beeba2f3)
+        ;
+
+        
+    
+    
+            var circle_marker_80d7c73e0bbc352bdaf6a9e02cc01b7f = L.circleMarker(
+                [35.90316111, 140.497459],
+                {"bubblingMouseEvents": true, "color": "#04703b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#04703b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_d0b2777bc19d307901916102fe49beca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b14cf7f06f13acbb2ea96f2bb47a4e2 = $(`<div id="html_2b14cf7f06f13acbb2ea96f2bb47a4e2" style="width: 100.0%; height: 100.0%;">香取市<br>件数: 22</div>`)[0];
+                popup_d0b2777bc19d307901916102fe49beca.setContent(html_2b14cf7f06f13acbb2ea96f2bb47a4e2);
+            
+        
+
+        circle_marker_80d7c73e0bbc352bdaf6a9e02cc01b7f.bindPopup(popup_d0b2777bc19d307901916102fe49beca)
+        ;
+
+        
+    
+    
+            var circle_marker_507d92267896b0472b84c26f01ed801e = L.circleMarker(
+                [35.11401958, 140.0988594],
+                {"bubblingMouseEvents": true, "color": "#036e3a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#036e3a", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_51715866be4494d511112278593329c0);
+        
+    
+        var popup_2ba35947afd6f4eee57bc4e7abfb3ff6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63c2115c25381745541e509cf079b80a = $(`<div id="html_63c2115c25381745541e509cf079b80a" style="width: 100.0%; height: 100.0%;">鴨川市<br>件数: 16</div>`)[0];
+                popup_2ba35947afd6f4eee57bc4e7abfb3ff6.setContent(html_63c2115c25381745541e509cf079b80a);
+            
+        
+
+        circle_marker_507d92267896b0472b84c26f01ed801e.bindPopup(popup_2ba35947afd6f4eee57bc4e7abfb3ff6)
+        ;
+
+        
+    
+</script>
+</html>
